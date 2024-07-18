@@ -34,3 +34,17 @@ let stringNum =String(someNum)
 
 console.log(stringNum)
 console.log(typeof stringNum)
+
+
+
+// *********************************oPERATION**********************
+
+console.log("1"+2+4);  //124
+
+console.log(1+2+"4");  //34
+
+console.log(true)   // true
+console.log(+true)  //1
+console.log(+"")  //0
+
+//console.log(true+) // error
