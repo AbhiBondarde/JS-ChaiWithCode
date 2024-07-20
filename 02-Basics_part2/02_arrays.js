@@ -13,7 +13,7 @@ const all_heros = marval.concat(loacl_hero);
 
 const arr =[1,2,3,[4,5,6],7,8,[3,5,7,[56,88,89]]]
 
-const arr1 =arr.flat(2)
+const arr1 =arr.flat(2)     //  [1,2,3,4,5,6,7,8,3,5,7,56,88,89]
 //console.log(arr1)
 
 
@@ -28,4 +28,4 @@ console.log(Array.of(score,score1,score2,score3));    //[ 100, 1300, 300, 500 ]
 
 
 
-console.log(Array.from({name:"Abhi"}));
+console.log(Array.from({name:"stark"}));
